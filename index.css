@@ -1,3 +1,18 @@
 header{
-  background-color: blue;
+
+}
+
+nav{
+margin: 20px;
+border-right: 5px;
+display:block;
+}
+
+nav a{
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+nav a:visited{
+  color: inherit;
 }
