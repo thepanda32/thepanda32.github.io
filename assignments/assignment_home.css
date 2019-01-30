@@ -50,16 +50,3 @@ nav li a{
 nav li a:visited{
   color: white;
 }
-
-
-main {
-  margin: auto;
-  /* background-color: red; */
-  max-width: 800px;
-  font-family: sans-serif;
-}
-
-footer{
-  margin: auto;
-  text-align: center;
-}
