@@ -6,7 +6,24 @@
 3. Mobile first rules
 4. larger screen rules */
 
-/* section 1 - Improrts */
+/* section 1 - Imports */
 
 @import url('https://fonts.googleapis.com/css?family=Sansita');
 @import url('normalize.css');
+
+
+
+
+/* section 2 - General Rules */
+header{
+  background-color: #0e89d5;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Sansita', sans-serif;
+}
+
+body{
+  font-size: 1.5em;
+  font-family: helvetica, Arial, sans-serif;
+}
