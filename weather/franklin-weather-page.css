@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+body{
+  font-family:  helvetica, sans-serif;
+}
+
+header{
+    font-family: 'Sansita', sans-serif;
+}
+
+#siteheader{
+  height: 105px;
+  display: flex;
+  background-color: #0e89d5;
+  }
+
+
+#logo{
+
+width: 100px ;
+height: 100px;
+/* float:left; */
+margin-top:auto;
+margin-bottom: auto;
+}
+
+#frank{
+  /* float:left; */
+}
