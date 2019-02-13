@@ -127,3 +127,18 @@ margin-left: 0px;
   font-family: Sansita;
   text-align: center;
 }
+
+#wind-pointer img{
+  position: relative;
+   margin-left: 50%;
+   /* z-index: -1; */
+   background-color: red;
+}
+
+#wind-pointer p{
+    left: 0;
+    /* position:absolute; */
+    text-align:center;
+    top: 30px;
+    /* width: 100% */
+}
