@@ -108,6 +108,7 @@ figure{
 
   margin-top:0px;
   margin-bottom: 20px;
+  text-align:center;
 }
 
 #temp ul{
@@ -120,4 +121,9 @@ figure{
 display: inline;
 
 margin-left: 0px;
+}
+
+#wind h2{
+  font-family: Sansita;
+  text-align: center;
 }
