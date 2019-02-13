@@ -29,14 +29,95 @@ margin-top:auto;
 margin-bottom: auto;
 }
 
-#frank{
-  /* float:left; */
-}
+
 
 nav ul{
   text-decoration: none;
+  background-color: #0e89d5;
+  margin-top: 0px;
+  height:30px;
 }
 
 nav ul li{
   display: inline;
+  padding: 10px;
+
+}
+
+
+nav a{
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  color: #ffffff;
+}
+
+nav a:hover{
+  color:#000000;
+
+}
+
+#frank{
+  font-size: 1.5em;
+  margin-top: 0px;
+  margin-bottom:0px;
+  /* background-color: red; */
+}
+
+#frank h2{
+  margin:0px;
+}
+
+#frank-info{
+  margin-left: 0px;
+  padding-left: 0px;
+   font-size: 0.75em;
+}
+
+#frank-info ul{
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+#frank-info ul li{
+  display: inline;
+  border-right: solid black 2px;
+  padding-right:5px;
+  padding-left: 5px;
+}
+
+#frank-info ul li:last-child{
+  border-right: none;
+}
+
+
+/* This makes those grey blocks thorughout the thing */
+figure{
+  background-color: rgba(200,200,200,.6);
+  margin: .2em auto;
+  border: 1px solid;
+  border-radius: 15px;
+}
+
+#temp h2{
+  font-family: Sansita;
+  text-align: center;
+}
+
+#temp p{
+
+  margin-top:0px;
+  margin-bottom: 20px;
+}
+
+#temp ul{
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+#temp ul li{
+display: inline;
+
+margin-left: 0px;
 }
