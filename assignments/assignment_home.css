@@ -50,3 +50,40 @@ nav li a{
 nav li a:visited{
   color: white;
 }
+
+#assignment-list{
+  background-color: ;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+}
+
+#assignment-list ul {
+  list-style-type: none;
+  font-size: 1.5em;
+}
+
+#assignment-list ul li{
+  padding: 10px;
+  border-bottom: solid black 2px;
+}
+
+#assignment-list li:last-child{
+    border-bottom: none;
+}
+
+#assignment-list a{
+  text-decoration: none;
+
+}
+
+#assignment-list a:visited{
+  text decoration: none;
+  color:inherit;
+}
+
+#assignment-list a:hover{
+    color: grey;
+}
