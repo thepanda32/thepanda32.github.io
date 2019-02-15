@@ -123,6 +123,11 @@ display: inline;
 margin-left: 0px;
 }
 
+#wind-pointer{
+  position: relative;
+  text-align: center;
+}
+
 #wind h2{
   font-family: Sansita;
   text-align: center;
@@ -130,10 +135,11 @@ margin-left: 0px;
 
 #wind-pointer img{
    /* position: relative; */
-   margin-left: 50%;
+   margin-left:;
      /* z-index: -1; */
 
 }
+
 
 #wind-pointer p{
     position:absolute;
