@@ -76,7 +76,7 @@ nav li a:visited{
 
 #assignment-list a{
   text-decoration: none;
-
+  color: black;
 }
 
 #assignment-list a:visited{
