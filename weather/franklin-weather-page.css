@@ -99,6 +99,38 @@ figure{
   border-radius: 15px;
 }
 
+/* This is where curweather begins basically */
+
+/*classes for curweather*/
+
+.clear {
+  background-size: cover;
+ background-image: url(images/weather-site-images/clear.jpg);
+
+}
+
+.cloudy{
+  background-size: cover;
+  background-image: url(images/weather-site-images/clouds.jpg);
+}
+
+.fog{
+  background-size: cover;
+  background-image: url(images/weather-site-images/fog.jpg);
+}
+
+.rain{
+  background-size: cover;
+  background-image: url(images/weather-site-images/rain.jpg);
+}
+
+.snow{
+  background-size: cover;
+  background-image: url(images/weather-site-images/snow.jpg);
+
+}
+
+/*----------------------*/
 #temp h2{
   font-family: Sansita;
   text-align: center;
@@ -159,7 +191,7 @@ margin-left: 0px;
   text-align: center;
 }
 
-#situation img{
+#summary img{
   max-width: 90%;
   margin-left:5%;
   opacity:0.5;
