@@ -8,11 +8,15 @@ console.log('My javascript is being read.');
 //mother element that sets the background image for everything
 var weatherCondition = document.getElementById("jstester").className;
 
-var curWeather = document.getElementById("curweather").className
+var curWeather = document.getElementById("curweather").className;
 
-var weatherKeyword = getCondition()
+var weatherKeyword = getCondition();
 
-var meters = document.getElementById("metertester").className
+var meters = document.getElementById("metertester").className;
+
+const feelTemp = document.getElementById("feelTemp");
+
+const direction = "East";
 
 console.log("weather condition variable returns: "+weatherCondition) //this is just to test the weatherCondition variable ^
 
@@ -87,6 +91,55 @@ function convertMeters(){
   console.log(Math.round(meters * 3.28084) + " feet")
 }
 
+
+
+function windDial(direction){
+const dial = document.getElementById("dial")
+
+// Determine the dial class
+ switch (direction){
+  case "North":
+  case "N":
+   dial.setAttribute("class", "n"); //"n" is the CSS rule selector
+   break;
+  case "NE":
+  case "NNE":
+  case "ENE":
+   dial.setAttribute("class", "ne");
+   break;
+  case "NW":
+  case "NNW":
+  case "WNW":
+   dial.setAttribute("class", "nw");
+   break;
+  case "South":
+  case "S":
+   dial.setAttribute("class", "s");
+   break;
+  case "SE":
+  case "SSE":
+  case "ESE":
+   dial.setAttribute("class", "se");
+   break;
+  case "SW":
+  case "SSW":
+  case "WSW":
+   dial.setAttribute("class", "sw");
+   break;
+  case "East":
+  case "E":
+   dial.setAttribute("class", "e");
+   break;
+  case "West":
+  case "W":
+   dial.setAttribute("class", "w");
+   break;
+ }
+
+
+}
+
 convertMeters()
+windDial(direction)
 changeSummaryImage()
 console.log("weatherKeyword returns 'snow'")

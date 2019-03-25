@@ -155,17 +155,38 @@ display: inline;
 margin-left: 0px;
 }
 
-#wind-pointer{
+#dial{
+ height: 150px;
+ width: 150px;
+ background: no-repeat center/85% url('/weather/images/wind-pointer.png');
+ z-index: 100;
+ margin: -.6em auto 0;
+/*
   position: relative;
   text-align: center;
+  */
 }
 
-#wind h2{
-  font-family: Sansita;
-  text-align: center;
+/* ---wind direction classes----------*/
+.n{
+transform: rotate(0deg);
 }
 
-#wind-pointer img{
+.s{
+transform: rotate(180deg);
+}
+
+.e{
+transform: rotate(90deg);
+}
+
+.w{
+transform: rotate(270deg);
+}
+
+
+/*------------------------------------*/
+#dial img{
    /* position: relative; */
    margin-left:;
      /* z-index: -1; */
@@ -173,13 +194,20 @@ margin-left: 0px;
 }
 
 
-#wind-pointer p{
+#dial p{
     position:absolute;
     transform: translate(-50%, -50%);
     top:50%;
     left:50%;
 
 }
+
+#wind h2{ /* commented out in HTML, need to fix*/
+  font-family: Sansita;
+  text-align: center;
+}
+
+
 
 #wind-bottomtext{
   text-align: center;
