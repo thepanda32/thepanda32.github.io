@@ -10,7 +10,7 @@ let contentContainer = document.getElementById('main-content');
 
 
 
-let weatherURL = "weather.json";
+let weatherURL = '/weather/js/weather.json';
 fetch(weatherURL)
   .then(function(response) {
     return response.json();
