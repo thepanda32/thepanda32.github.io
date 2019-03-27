@@ -174,6 +174,12 @@ function buildHourlyData(nextHour,hourlyTemps) {
  }
 
 
+ // Get the next hour based on the current time
+ let date = new Date();
+ let nextHour = date.getHours() + 1;
+
+
+
 
 
 /*******Calling functions and console logging to confirm funcionality***********/

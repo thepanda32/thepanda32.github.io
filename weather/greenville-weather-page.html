@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en-us">
+ <head>
+  <meta charset="UTF-8">
+  <title id="page-title">Greenville, ID | Weather Site</title>
+  <meta name="description" content="Short Description of the page.">
+  <meta name="viewport" content="width=device-width">
+
+ <link rel="stylesheet" type="text/css" href="greenville-weather-page.css">
+
+ </head>
+ <body>
+
+
+   <header id="siteheader">
+     <img id="logo" src="images/weather-site-images/logo.jpeg" alt="logo">
+    <h1>The Weather Site</h1>
+   </header>
+
+   <nav id="navmenu">
+      <ul>
+       <li><a href="#" title="Go to the Weather Site home page">Home</a></li>
+       <li><a href="#" title="Go to greenville weather page">Greenville</a></li>
+       <li><a href="#" title="other">Other</a></li>
+      </ul>
+   </nav>
+
+<section id="status">Please be patient while I get your weather information.</section>
+
+
+
+
+   <main id="main-content" class="hide">
+
+     <header id="greenville-header">
+       <h2> Franklin, Idaho </h2>
+     </header>
+
+     <aside id="greenville-header-info">
+       <ul>
+         <li><b>Zip:</b>83237</li>
+         <li><b>Elevation:</b>4968 ft. </li>
+         <li><b>Location</b> 42.07&deg N, 111.79&deg W</li>
+       </ul>
+     </aside>
+<div id="jstester" class="snow"></div> <!-- This is a placeholder
+  for a value that eventually will be retrieved from a JSON file, i think... -->
+<div id="metertester" class="10"></div><!-- similar thing for testing a meter
+  conversion function -->
+<div id="curweather" class="">
+
+     <figure id="temp">
+       <h2> Temperature </h2>
+       <p style="font-size:4.5em;"> 24&deg F</p>
+       <ul>
+         <li style=" color:#0033cc; padding-right:10px;">34&degF</li>
+         <li style=" color:#cc0000;">21&degF</li>
+       </ul>
+       <p id="feelTemp">Feels Like 25&degF</p>
+     </figure>
+
+     <figure id="wind">
+       <h2>Wind</h2>
+       <div id="dial" class="n">
+       <img src="images/weather-site-images/wind-pointer.png" >
+       <!--<p>2 mph</p> need to fix sometime -->
+     </div>
+     <div id="wind-bottomtext">
+     <p><b>Direction:</b> NW</p>
+     <p><b>Gusts:</b> 5mph</p>
+   </div>
+
+     </figure>
+
+     <figure id="summary">
+       <h2>Current Weather</h2>
+       <h3 id="summary-statement">Clear</h3>
+       <img src="images\weather-site-images\clear.jpg">
+     </figure>
+
+     <figure id="forecast">
+       <h2>Hourly Forecast</h2>
+       <ul>
+         <li> 10AM: 30&degF</li>
+         <li> 11AM: 34&degF</li>
+         <li> 12PM: 35&degF</li>
+     </figure>
+
+   </div>
+   </main>
+
+
+   <footer>
+    &copy;2019, The Weather Site
+   </footer>
+
+<script src="js/functions.js"> </script>
+<script src="js/localdata.js"> </script>
+ </body>
+</html>

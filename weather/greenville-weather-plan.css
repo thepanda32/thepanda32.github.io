@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+body{
+  font-family:  helvetica, sans-serif;
+}
+
+header{
+    font-family: 'Sansita', sans-serif;
+}
+
+#siteheader{
+  height: 60px;
+  display: flex;
+  background-color: #0e89d5;
+  font-family: Helvetica;
+  font-size: 1.1em;
+  }
+
+ #siteheader h1{
+   margin: auto;
+ }
+
+#logo{
+
+width: 50px ;
+height: 50px;
+/* float:left; */
+margin-top:auto;
+margin-bottom: auto;
+}
+
+
+
+nav ul{
+  text-decoration: none;
+  background-color: #0e89d5;
+  margin-top: 0px;
+  height:30px;
+}
+
+nav ul li{
+  display: inline;
+  padding: 10px;
+
+}
+
+
+nav a{
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  color: #ffffff;
+}
+
+nav a:hover{
+  color:#000000;
+
+}
+
+#greenville-header{
+  font-size: 1.5em;
+  margin-top: 0px;
+  margin-bottom:0px;
+  /* background-color: red; */
+}
+
+#greenville-header h2{
+  margin:0px;
+}
+
+#greenville-header-info{
+  margin-left: 0px;
+  padding-left: 0px;
+   font-size: 0.75em;
+}
+
+#greenville-header-info ul{
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+#greenville-header ul li{
+  display: inline;
+  border-right: solid black 2px;
+  padding-right:5px;
+  padding-left: 5px;
+}
+
+#greenville-header ul li:last-child{
+  border-right: none;
+}
+
+
+/* This makes those grey blocks thorughout the thing */
+figure{
+  background-color: rgba(200,200,200,.6);
+  margin: .2em auto;
+  border: 1px solid;
+  border-radius: 15px;
+}
+
+/* This is where curweather begins basically */
+
+/*classes for curweather*/
+
+.clear {
+  background-size: cover;
+ background-image: url(images/weather-site-images/clear.jpg);
+
+}
+
+.cloudy{
+  background-size: cover;
+  background-image: url(images/weather-site-images/clouds.jpg);
+}
+
+.fog{
+  background-size: cover;
+  background-image: url(images/weather-site-images/fog.jpg);
+}
+
+.rain{
+  background-size: cover;
+  background-image: url(images/weather-site-images/rain.jpg);
+}
+
+.snow{
+  background-size: cover;
+  background-image: url(images/weather-site-images/snow.jpg);
+
+}
+
+/*----------------------*/
+#temp h2{
+  font-family: Sansita;
+  text-align: center;
+}
+
+#temp p{
+
+  margin-top:0px;
+  margin-bottom: 20px;
+  text-align:center;
+}
+
+#temp ul{
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+#temp ul li{
+display: inline;
+
+margin-left: 0px;
+}
+
+#dial{
+ height: 150px;
+ width: 150px;
+ background: no-repeat center/85% url('/weather/images/wind-pointer.png');
+ z-index: 100;
+ margin: -.6em auto 0;
+/*
+  position: relative;
+  text-align: center;
+  */
+}
+
+/* ---wind direction classes----------*/
+.n{
+transform: rotate(0deg);
+}
+
+.s{
+transform: rotate(180deg);
+}
+
+.e{
+transform: rotate(90deg);
+}
+
+.w{
+transform: rotate(270deg);
+}
+
+
+/*------------------------------------*/
+#dial img{
+   /* position: relative; */
+   margin-left:;
+     /* z-index: -1; */
+
+}
+
+
+#dial p{
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+
+}
+
+#wind h2{ /* commented out in HTML, need to fix*/
+  font-family: Sansita;
+  text-align: center;
+}
+
+
+
+#wind-bottomtext{
+  text-align: center;
+  padding-top: 10px;
+}
+
+#situation h2{
+  font-family: Sansita;
+  text-align: center;
+}
+
+#summary img{
+  max-width: 90%;
+  margin-left:5%;
+  opacity:0.5;
+}
+
+#forecast h2{
+  font-family: Sansita;
+  text-align: center;
+}
+
+#forecast ul{
+  text-align: center;
+}
+
+#forecast ul li{
+  display: inline;
+}
+
+.hide{
+  display: none;
+}
+
+
+footer{
+  background-color: #0e89d5;
+
+}
