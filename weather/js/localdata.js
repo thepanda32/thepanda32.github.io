@@ -2,7 +2,6 @@
 
 
 
-
 let pageNav = document.getElementById('page-nav');
 let statusContainer = document.getElementById('status');
 let contentContainer = document.getElementById('main-content');
@@ -12,12 +11,22 @@ let contentContainer = document.getElementById('main-content');
 
 
 let weatherURL = "weather.json";
+fetch(weatherURL)
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(myJson) {
+    console.log(JSON.stringify(myJson));
+  });
+
 function fetchData(weatherURL){
+
+  console.log(weatherURL);
   let cityName = 'Greenville'; // The data we want from the weather.json file
   fetch(weatherURL)
   .then(function(response) {
   if(response.ok){
-  return response.json();
+  console.log(response.json());
   }
   throw new ERROR('Network response was not OK.');
   })
@@ -89,3 +98,5 @@ function fetchData(weatherURL){
   statusContainer.innerHTML = 'Sorry, the data could not be processed.';
   })
 }
+
+fetchData(weatherURL);
