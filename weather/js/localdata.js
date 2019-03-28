@@ -37,7 +37,7 @@ let cityName = 'Greenville'; // The data we want from the weather.json file
       let locTemp = g.Temp;      //i added this
 
       // Get the wind data
-      let locWind = g.wind;    //i added this
+      let locWind = g.Wind;    //i added this
 
       // Get the current conditions
       let locCurrent = g.Summary;    //i added this
@@ -58,13 +58,14 @@ let cityName = 'Greenville'; // The data we want from the weather.json file
 
       // Set the Location information
       // Get the h1 to display the city location
-      let contentHeading = document.getElementById('greenville-header');
+      let greenville-header = document.getElementById('greenville-header');
       greenville-header.innerHTML = fullName;
       // The h1 in main h1 should now say "Greenville, SC"
 
 
       // Set the temperature information
-
+      let tempInfo = document.getElementById('Temp');
+      tempInfo.innerHTML = locTemp;
 
       // Set the wind information
 
