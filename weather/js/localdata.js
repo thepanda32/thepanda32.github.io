@@ -58,8 +58,8 @@ let cityName = 'Greenville'; // The data we want from the weather.json file
 
       // Set the Location information
       // Get the h1 to display the city location
-      let greenville-header = document.getElementById('greenville-header');
-      greenville-header.innerHTML = fullName;
+      let greenvilleHeader = document.getElementById('greenville-header');
+      greenvilleHeader.innerHTML = fullName;
       // The h1 in main h1 should now say "Greenville, SC"
 
 
