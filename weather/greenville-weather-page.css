@@ -158,7 +158,7 @@ margin-left: 0px;
 #dial{
  height: 150px;
  width: 150px;
- /* background-image:url('/weather/images/wind-pointer.png'); */
+ background-image:url('/weather/images/wind-pointer.png');
 background-repeat: no-repeat;
 margin: 0 auto;
 /*
