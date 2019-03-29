@@ -95,7 +95,7 @@ let cityName = 'Greenville'; // The data we want from the weather.json file
       var listItem = document.createElement('li');
 
       // Add the item text
-      listItem.innerHTML = locHourly[i];
+      listItem.innerHTML = locHourly[i] + "&deg F";
 
       // Add listItem to the listElement
       listElement.appendChild(listItem);
