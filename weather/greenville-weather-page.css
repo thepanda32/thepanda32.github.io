@@ -131,25 +131,25 @@ figure{
 }
 
 /*----------------------*/
-#temp h2{
+#temp-figure h2{
   font-family: Sansita;
   text-align: center;
 }
 
-#temp p{
+#temp-figure p{
 
   margin-top:0px;
   margin-bottom: 20px;
   text-align:center;
 }
 
-#temp ul{
+#temp-figure ul{
     list-style-type: none;
     text-align: center;
     padding-left: 0px;
     margin-top: 0px;
 }
-#temp ul li{
+#temp-figure ul li{
 display: inline;
 
 margin-left: 0px;
