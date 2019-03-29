@@ -66,7 +66,7 @@ let cityName = 'Greenville'; // The data we want from the weather.json file
       // Set the temperature information
       let tempInfo = document.getElementById('main-temp');
       tempInfo.innerHTML = locTemp;
-
+      console.log(tempInfo)
       // Set the wind information
 
 
