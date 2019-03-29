@@ -68,14 +68,14 @@ let cityName = 'Greenville'; // The data we want from the weather.json file
       tempInfo.innerHTML = locTemp;
       console.log(tempInfo)
       // Set the wind information
-      let windInfo = document.getElementById(''); //FIX WIND DIAL IN HTML AND CSS
-      windInfo.innerHTML = locWind;
+      //let windInfo = document.getElementById(''); //FIX WIND DIAL IN HTML AND CSS
+      //windInfo.innerHTML = locWind;
       // Set the current conditions information
       let currentInfo = document.getElementById('summary-statements');
       currentInfo.innerHTML = locCurrent;
 
       // Set the hourly temperature information
-      
+
 
       // Change the status of the containers
       contentContainer.setAttribute('class', ''); // removes the hide class
