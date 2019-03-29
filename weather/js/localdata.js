@@ -72,7 +72,7 @@ let cityName = 'Greenville'; // The data we want from the weather.json file
       windInfo.innerHTML = locWind;
       // Set the current conditions information
       let currentInfo = document.getElementById('summary-statement');
-      currentInfo.innerHTML = locCurrent;
+      currentInfo.innerHTML = locCurrent + " mph";
 
 
       // *****Set the hourly temperature information*****
