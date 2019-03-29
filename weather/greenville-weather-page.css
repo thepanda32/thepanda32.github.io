@@ -197,6 +197,7 @@ transform: rotate(270deg);
 #wind-speed{
 margin-top: -80px;
 margin-bottom: 80px;
+text-align: center;
 }
 
 #wind h2{ /* commented out in HTML, need to fix*/
