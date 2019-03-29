@@ -158,9 +158,9 @@ margin-left: 0px;
 #dial{
  height: 150px;
  width: 150px;
- background: no-repeat center/85% url('/weather/images/wind-pointer.png');
- z-index: 100;
- margin: -.6em auto 0;
+ background-image:url('/weather/images/wind-pointer.png');
+background-repeat: no-repeat;
+margin: 0 auto;
 /*
   position: relative;
   text-align: center;
@@ -195,11 +195,8 @@ transform: rotate(270deg);
 
 
 #dial p{
-    position:absolute;
-    transform: translate(-50%, -50%);
-    top:50%;
-    left:50%;
-
+margin-top: -80px;
+margin-bottom: 80px;
 }
 
 #wind h2{ /* commented out in HTML, need to fix*/
