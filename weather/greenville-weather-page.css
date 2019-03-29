@@ -236,6 +236,7 @@ transform: rotate(270deg);
 
 #forecast ul li{
   display: inline;
+  padding: 3px;
 }
 
 .hide{
