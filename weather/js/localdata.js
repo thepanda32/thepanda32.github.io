@@ -74,7 +74,39 @@ let cityName = 'Greenville'; // The data we want from the weather.json file
       let currentInfo = document.getElementById('summary-statement');
       currentInfo.innerHTML = locCurrent;
 
-      // Set the hourly temperature information
+
+      // *****Set the hourly temperature information*****
+      function makeList() {
+
+  // Make a container element for the list
+  var listContainer = document.getElementById('hourly-list')
+
+  // Make the list
+  var listElement = document.createElement('ul');
+
+  // Add it to the page
+  listContainer.appendChild(listElement);
+
+  // Set up a loop that goes through the items in listItems one at a time
+  var numberOfListItems = locHourly.length;
+
+  for (var i = 0; i < numberOfListItems; ++i) {
+      // create an item for each one
+      var listItem = document.createElement('li');
+
+      // Add the item text
+      listItem.innerHTML = locHourly[i];
+
+      // Add listItem to the listElement
+      listElement.appendChild(listItem);
+  }
+}
+
+      makeList();
+
+//     *****************
+
+
 
 
       // Change the status of the containers
