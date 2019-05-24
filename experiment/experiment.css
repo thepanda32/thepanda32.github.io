@@ -1,0 +1,14 @@
+body {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#transparent_box{
+  background-image: url(tyler.jpg);
+
+  min-width: 400px;
+  min-height: 600px;
+  opacity: 0.5;
+}
