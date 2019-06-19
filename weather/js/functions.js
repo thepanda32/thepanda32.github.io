@@ -89,6 +89,7 @@ function changeSummaryImage(){
 
 function convertMeters(){
   console.log(Math.round(meters * 3.28084) + " feet")
+  document.getElementById("elevation").innerHTML = "elevation " Math.round(meters * 3.28084) + "ft;"
 }
 
 
