@@ -15,6 +15,7 @@ let weatherURL = 'http://thepanda32.github.io/weather/js/weather.json';
 
 function fetchData(weatherURL){
 let cityName = 'Greenville'; // The data we want from the weather.json file
+console.log(cityName);
   fetch(weatherURL)
     .then(function(response) {
       return response.json();
