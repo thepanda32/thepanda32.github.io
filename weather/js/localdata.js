@@ -10,7 +10,7 @@ let contentContainer = document.getElementById('main-content');
 
 
 
-let weatherURL = 'weather.json';
+let weatherURL = 'http://thepanda32.github.io/weather/js/weather.json';
 
 
 function fetchData(weatherURL){
