@@ -2,19 +2,31 @@
 
 
 
-let pageNav = document.getElementById('page-nav');
+let pageNav = document.getElementById('navmenu');
 let statusContainer = document.getElementById('status');
 let contentContainer = document.getElementById('main-content');
 
 
+pageNav.addeventlistener('click', function(evt){
 
+// Get the city name
+let cityName = evt.target.innerHTML;
+switch (cityName) {
+  case "Franklin":
+  case "Greenville":
+  case "Springfield":
+  evt.preventdefault();
+    break;
+  default:
+
+}
 
 
 let weatherURL = 'http://thepanda32.github.io/weather/js/weather.json';
 
 
-function fetchData(weatherURL){
-let cityName = 'Greenville'; // The data we want from the weather.json file
+//function fetchData(weatherURL){
+//let cityName = 'Greenville'; // The data we want from the weather.json file
 console.log(cityName);
   fetch(weatherURL)
     .then(function(response) {
@@ -117,6 +129,6 @@ console.log(cityName);
   console.log('There was a fetch problem: ', error.message);
   statusContainer.innerHTML = 'Sorry, the data could not be processed.';
 });
-}
-
+//}
+}) // pagenav event listener
 fetchData(weatherURL);
