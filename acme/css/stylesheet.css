@@ -1,0 +1,97 @@
+/*Color Scheme:
+    background-color: #000000
+    background-color: #0000ee
+    background-color: #808080
+    background-color: #990033
+    background-color: #de2226
+    background-color: #ffffff
+
+
+
+*/
+
+#backgroundImage{
+    background-image: url(../images/site/background.jpg);
+    background-repeat: none;
+    background-size: 100%;
+}
+nav{
+    background-color: #de2226;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav #links{
+    display: flex;
+    flex: row;
+    justify-content: space-evenly;
+    list-style: none;
+    color: #ffff;
+    width: 70%;
+    font-size: 20px;
+    margin-top:0px;
+    padding-left: 0px;
+    height: 40px;
+    align-items: center;
+
+}
+#banner1{
+    background-image: url(/finalproject/acme/images/site/feature.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+#banner_1_list{
+    /* display: flex;
+    justify-content: flex-end;
+    flex-direction: row; */
+
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    list-style-type: none;
+    text-align: right;
+    color:red;
+}
+#logo-div{
+    background-color: #ffff;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    background-image: url('../images/site/background.jpg');
+}
+
+.container{
+background-color: #ffff;
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+}
+
+h2 {
+    color:#de2226;
+
+}
+footer{
+    font-size: 12px;
+   text-align: center;
+
+}
+#copyright{
+   text-align: center;
+}
+@media only screen and (min-width: 992px){
+    #banner1-list{
+    position: absolute;
+    top: 70%;
+    right: 22%;
+    list-style: none;
+    /* right: 5%; */
+    /* text-align: right; */
+    color: red;
+    }
+}
