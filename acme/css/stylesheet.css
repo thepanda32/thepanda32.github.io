@@ -10,11 +10,26 @@
 
 */
 
+/********** Text Styles ********/
+
+h2 {
+    color:#de2226;
+}
+
+ /********** Body *********/
 #backgroundImage{
     background-image: url(../images/site/background.jpg);
     background-repeat: none;
     background-size: 100%;
 }
+
+body {
+    background-image: url('../images/site/background.jpg');
+    background-repeat: none;
+    background-size: 100%;
+}
+
+/******** Navigation Container ***********/
 nav{
     background-color: #de2226;
     width: 100%;
@@ -27,7 +42,7 @@ nav #links{
     justify-content: space-evenly;
     list-style: none;
     color: #ffff;
-    width: 70%;
+    width: 80%;
     font-size: 20px;
     margin-top:0px;
     padding-left: 0px;
@@ -35,47 +50,60 @@ nav #links{
     align-items: center;
 
 }
+/******** Welcome to Acme Container ***********/
 #banner1{
     background-image: url(/finalproject/acme/images/site/feature.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
-    height: 500px;
+    height: 300px;
 }
-
+#banner_container{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
 #banner_1_list{
     /* display: flex;
     justify-content: flex-end;
     flex-direction: row; */
 
-    position: absolute;
-    top: 20%;
-    right: 5%;
+    /* position: absolute;
+    top: 16%;
+    right: 19%; */
+    padding: 10px;
     list-style-type: none;
-    text-align: right;
-    color:red;
+    /* text-align: right; */
+    color: red;
 }
+
+/******** Logo Container ***********/
 #logo-div{
     background-color: #ffff;
-    width: 70%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
-body {
-    background-image: url('../images/site/background.jpg');
-}
+
 
 .container{
 background-color: #ffff;
-width: 70%;
+width: 85%;
 margin-left: auto;
 margin-right: auto;
 }
 
-h2 {
-    color:#de2226;
+
+/******** Recipe Container ***********/
+.recipe_container{
+    display: flex;
+    flex-wrap: wrap;
+
 
 }
+
+
+
 footer{
     font-size: 12px;
    text-align: center;
@@ -84,14 +112,14 @@ footer{
 #copyright{
    text-align: center;
 }
-@media only screen and (min-width: 992px){
-    #banner1-list{
-    position: absolute;
-    top: 70%;
-    right: 22%;
-    list-style: none;
-    /* right: 5%; */
-    /* text-align: right; */
-    color: red;
+
+/* @media only screen and (min-width: 990px){
+    #banner_1_list{
+        position: absolute;
+        top: 60%;
+        right: 20%;
+        list-style-type: none;
+        text-align: right;
+        color: red;
     }
-}
+} */
