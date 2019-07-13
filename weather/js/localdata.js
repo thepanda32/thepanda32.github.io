@@ -24,9 +24,9 @@ switch (cityName) {
 
 let weatherURL = 'http://thepanda32.github.io/weather/js/weather.json';
 // let weatherData = JSON.parse(weatherURL);
-
+console.log("this is just before the fetchData function is declared")
 function fetchData(weatherURL){
-  console.log("you have entered into the fetchData function ");
+console.log("you have entered into the fetchData function ");
 let dataParser = JSON.parse(weatherURL) // The data we want from the weather.json file
   fetch(weatherURL)
     .then(function(response) {
