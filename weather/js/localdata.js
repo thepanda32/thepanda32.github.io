@@ -6,7 +6,7 @@ let pageNav = document.getElementById('navmenu');
 let statusContainer = document.getElementById('status');
 let contentContainer = document.getElementById('main-content');
 
-
+console.log("this is just before the event listener")
 pageNav.addEventListener('click', function(evt){
 
 // Get the city name
