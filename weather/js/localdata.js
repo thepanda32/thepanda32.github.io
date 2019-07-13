@@ -1,6 +1,6 @@
 "use strict";
 
-
+console.log("localdata is being used")
 
 let pageNav = document.getElementById('navmenu');
 let statusContainer = document.getElementById('status');
