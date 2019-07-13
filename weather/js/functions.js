@@ -88,8 +88,8 @@ function changeSummaryImage(){
 }
 
 function convertMeters(){
-  console.log(Math.round(meters * 3.28084) + " feet")
-  document.getElementById("elevation").innerHTML = "elevation " Math.round(meters * 3.28084) + "ft;"
+  console.log(Math.round(meters * 3.28084) + " feet");
+  document.getElementById("elevation").innerHTML = Math.round(meters * 3.28084) + "ft";
 }
 
 
@@ -188,4 +188,3 @@ function buildHourlyData(nextHour,hourlyTemps) {
 convertMeters()
 windDial(direction)
 changeSummaryImage()
-console.log("weatherKeyword returns 'snow'")

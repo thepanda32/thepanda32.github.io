@@ -7,7 +7,7 @@ let statusContainer = document.getElementById('status');
 let contentContainer = document.getElementById('main-content');
 
 
-pageNav.addeventlistener('click', function(evt){
+pageNav.addEventListener('click', function(evt){
 
 // Get the city name
 let cityName = evt.target.innerHTML;
@@ -25,8 +25,8 @@ switch (cityName) {
 let weatherURL = 'http://thepanda32.github.io/weather/js/weather.json';
 
 
-//function fetchData(weatherURL){
-//let cityName = 'Greenville'; // The data we want from the weather.json file
+function fetchData(weatherURL){
+//let cityName = ; // The data we want from the weather.json file
 console.log(cityName);
   fetch(weatherURL)
     .then(function(response) {
@@ -128,7 +128,8 @@ console.log(cityName);
     }).catch(function(error){
   console.log('There was a fetch problem: ', error.message);
   statusContainer.innerHTML = 'Sorry, the data could not be processed.';
-});
-//}
-}) // pagenav event listener
+})
+
+} //fetchData function
 fetchData(weatherURL);
+}) // pagenav event listener
