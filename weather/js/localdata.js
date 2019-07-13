@@ -15,7 +15,7 @@ switch (cityName) {
   case "Franklin":
   case "Greenville":
   case "Springfield":
-  evt.preventdefault();
+  evt.preventDefault();
     break;
   default:
 
