@@ -132,5 +132,5 @@ console.log("cityName returned:" + cityName);
 })
 
 } //fetchData function
-fetchData(weatherURL);
+fetchData(weatherData);
 }) // pagenav event listener
