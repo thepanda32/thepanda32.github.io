@@ -27,6 +27,7 @@ let weatherData = JSON.parse(weatherURL);
 
 function fetchData(weatherData){
 let cityName = weatherData.City // The data we want from the weather.json file
+console.log("you got to just before the cityname was called")
 console.log("cityName returned:" + cityName);
   fetch(weatherURL)
     .then(function(response) {
