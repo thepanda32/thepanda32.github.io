@@ -23,12 +23,11 @@ switch (cityName) {
 
 
 let weatherURL = 'http://thepanda32.github.io/weather/js/weather.json';
-let weatherData = JSON.parse(weatherURL);
+// let weatherData = JSON.parse(weatherURL);
 
-function fetchData(weatherData){
-let cityName = weatherData.City // The data we want from the weather.json file
-console.log("you got to just before the cityname was called")
-console.log("cityName returned:" + cityName);
+function fetchData(weatherURL){
+let dataParser = JSON.parse(weatherURL) // The data we want from the weather.json file
+console.log("you have entered into the fetchData function ");
   fetch(weatherURL)
     .then(function(response) {
       return response.json();
@@ -132,5 +131,5 @@ console.log("cityName returned:" + cityName);
 })
 
 } //fetchData function
-fetchData(weatherData);
+fetchData(weatherURL);
 }) // pagenav event listener
