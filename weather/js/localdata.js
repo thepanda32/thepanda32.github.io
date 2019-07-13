@@ -26,8 +26,8 @@ let weatherURL = 'http://thepanda32.github.io/weather/js/weather.json';
 // let weatherData = JSON.parse(weatherURL);
 
 function fetchData(weatherURL){
+  console.log("you have entered into the fetchData function ");
 let dataParser = JSON.parse(weatherURL) // The data we want from the weather.json file
-console.log("you have entered into the fetchData function ");
   fetch(weatherURL)
     .then(function(response) {
       return response.json();
