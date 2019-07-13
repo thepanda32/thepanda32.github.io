@@ -1,5 +1,5 @@
-[
-{ "Franklin": {
+{
+ "Franklin": {
   "City": "Franklin",
   "State": "ID",
   "High": 64,
@@ -15,8 +15,8 @@
   "Elevation": 1514.246,
   "Zip": 83237,
   "Hourly": [41, 41, 41,  41, 41, 41, 42, 44, 44, 46, 49, 51, 55]
- }},
- {"Greenville": {
+},
+"Greenville": {
   "City": "Greenville",
   "State": "SC",
   "High": 72,
@@ -32,8 +32,8 @@
   "Elevation": 294.437,
   "Zip": 29601,
   "Hourly": [55, 55, 56, 57, 57, 57, 59, 59, 59, 60, 61, 63, 64]
-}},
- {"Springfield":{
+},
+"Springfield":{
    "City": "Springfield",
    "State": "IL",
    "High": 77,
@@ -49,5 +49,5 @@
    "Elevation": 170,
    "Zip": 62701,
    "Hourly": [55, 56, 57, 59, 60, 63, 72, 74, 75, 76, 77, 76]
- }}
-]
+ }
+}
