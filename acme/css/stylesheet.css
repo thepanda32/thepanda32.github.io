@@ -62,7 +62,7 @@ html {
  }
  /******** Welcome to Acme Container ***********/
  #banner1{
-    background-image: url(/finalproject/acme/images/site/feature.jpg);
+    background-image: url(../images/site/feature.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -77,7 +77,7 @@ html {
      padding: 10px;
     list-style-type: none;
     color: red;
-
+    font-size: 30%;
  }
 
  /******** Logo Container ***********/
@@ -243,7 +243,7 @@ width:50%;
       }
 
       #banner1{
-         background-image: url(/finalproject/acme/images/site/feature.jpg);
+         background-image: url(../images/site/feature.jpg);
          background-size: 100%;
          background-repeat: no-repeat;
          width: 100%;
@@ -254,5 +254,6 @@ width:50%;
    padding: 10px;
   list-style-type: none;
   color: red;
+  font-size: 100%;
 }
 }
